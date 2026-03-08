@@ -3,11 +3,6 @@
     "outputDirectory": "dist",
     "installCommand": "npm install",
     "framework": "vite",
-    "functions": {
-        "server/vercel/*.ts": {
-            "runtime": "@vercel/node"
-        }
-    },
     "headers": [
         {
             "source": "/(.*)",
@@ -67,7 +62,11 @@
     ],
     "rewrites": [
         {
-            "source": "/((?!api/).*)",
+            "source": "/api/send-email",
+            "destination": "/api/send-email"
+        },
+        {
+            "source": "/(.*)",
             "destination": "/index.html"
         }
     ]
