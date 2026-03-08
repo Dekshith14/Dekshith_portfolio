@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        // Tailwind CSS IntelliSense — autocomplete, hover previews, syntax highlighting for @tailwind / @apply
+        "bradlc.vscode-tailwindcss",
+        // TypeScript + React support
+        "dbaeumer.vscode-eslint",
+        // Prettier code formatting
+        "esbenp.prettier-vscode",
+        // Path IntelliSense — autocomplete for @/ alias imports
+        "christian-kohler.path-intellisense"
+    ]
+}
